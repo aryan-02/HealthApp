@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">HealthApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?\u00A0</string>
+    <string name="sign_in_instead">Sign in instead</string>
+    <string name="new_here">New Here?\u00A0</string>
+    <string name="create_an_account">Create an account.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="UserGreeting">Welcome back, %1$s!</string>
+    <string name="almost_there">Almost there!</string>
+    <string name="we_need_a_few_more_details">We need a few more details.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="dateFormatString">%2d / %2d / %4d</string>
+    <string-array name="contact_types">
+        <item>General Contact</item>
+        <item>Doctor Contact</item>
+        <item>Next of Kin Contact</item>
+    </string-array>
+    <string-array name="search_contact_types">
+        <item>Any</item>
+        <item>General Contact</item>
+        <item>Doctor Contact</item>
+        <item>Next of Kin Contact</item>
+    </string-array>
+    <string-array name="meal_types">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+    <string-array name="search_meal_types">
+        <item>Any</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+    <string-array name="note_types">
+        <item>Reminder</item>
+        <item>Recipe</item>
+        <item>Health Article</item>
+        <item>Diet Plan</item>
+    </string-array>
+    <string-array name="search_note_types">
+        <item>Any</item>
+        <item>Reminder</item>
+        <item>Recipe</item>
+        <item>Health Article</item>
+        <item>Diet Plan</item>
+    </string-array>
+    <string-array name="vitals_type">
+        <item>Blood Pressure</item>
+        <item>Glucose Level</item>
+        <item>Cholesterol Level</item>
+    </string-array>
+    <string-array name="search_vitals_type">
+        <item>Any</item>
+        <item>Blood Pressure</item>
+        <item>Glucose Level</item>
+        <item>Cholesterol Level</item>
+    </string-array>
+    <string-array name="medicine_time">
+        <item>Morning</item>
+        <item>Noon</item>
+        <item>Night</item>
+    </string-array>
+    <string-array name="medicine_schedule">
+        <item>Every Day</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+</resources>

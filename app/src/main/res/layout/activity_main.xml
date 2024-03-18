@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="40sp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            app:srcCompat="@drawable/user_avatar"
+            android:layout_marginBottom="20sp"
+            />
+
+        <TextView
+            android:id="@+id/emailDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome back, User!"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/prescriptionBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Prescriptions"
+                android:gravity="center"
+                android:layout_margin="10sp"/>
+
+            <Button
+                android:id="@+id/vitalSignsBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Vital Signs"
+                android:gravity="center"
+                android:layout_margin="10sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/dietBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Diet"
+                android:gravity="center"
+                android:layout_margin="10sp"/>
+
+            <Button
+                android:id="@+id/notesBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:gravity="center"
+                android:layout_margin="10sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/contactsBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:gravity="center"
+                android:layout_margin="10sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/medicationsBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Medication Database"
+                android:gravity="center"
+                android:layout_margin="10sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/signOutBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Log Out" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
